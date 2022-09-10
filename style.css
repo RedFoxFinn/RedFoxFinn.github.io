@@ -1,3 +1,43 @@
 body {
+  margin: 0 auto;
+  max-width: 64em;
+  font-family: 'Georgia', serif;
+  line-height: 1.5;
+  padding: 1em;
   color: #555;
+  background-color: gainsboro;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-weight: normal;
+  margin-top: 0.5em;
+  color: #555;
+}
+
+nav {
+  margin: 2em 0 2em 0;
+}
+
+section {
+  padding-top: 1em;
+  max-width: 50em;
+}
+
+a {
+  color: crimson;
+}
+a:visited {
+  color:darkred;
+}
+
+li {
+  color: #555;
+}
+
+.intend {
+  padding-left: 1em;
+}
+
+.shadowed-text {
+  text-shadow: 2px 1px #ff9f15;
 }
