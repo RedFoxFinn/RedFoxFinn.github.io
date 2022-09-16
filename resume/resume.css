@@ -34,8 +34,18 @@ li {
   color: #555;
 }
 
+table, thead, tbody, tr {
+  max-width: 50em;
+}
+
 table {
-  max-width: 64em;
+  width: inherit;
+  padding: 1em;
+}
+
+thead, tbody, tr {
+  width: inherit;
+  padding: 0.5em;
 }
 
 .intend {
@@ -52,6 +62,6 @@ table {
 }
 
 progress {
-  width: 6em;
+  max-width: 6em;
   accent-color: #ff9f15;
 }
